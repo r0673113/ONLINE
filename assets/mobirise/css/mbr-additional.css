@@ -1255,7 +1255,7 @@ body {
   min-height: 100vh;
 }
 .cid-qE6adp2vky {
-  padding-top: 90px;
+  padding-top: 75px;
   padding-bottom: 90px;
   background: linear-gradient(45deg, #ffffff, #ffffff);
 }
@@ -1277,6 +1277,10 @@ body {
 .cid-qE6adp2vky .mbr-text,
 .cid-qE6adp2vky .mbr-section-btn I {
   color: #ff0000;
+}
+.cid-qE6adp2vky P {
+  color: #ff0000;
+  text-align: left;
 }
 .cid-qwTUJHSK0F .navbar {
   padding: .5rem 0;
