@@ -570,12 +570,38 @@ a:hover {
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#scrollToTop a i:before {
+  content: '';
+  position: absolute;
+  height: 40%;
+  top: 25%;
+  background: #fff;
+  width: 2px;
+  left: calc(50% - 1px);
+}
+#scrollToTop a i:after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  width: 40%;
+  height: 40%;
+  left: 30%;
+  bottom: 30%;
+  transform: rotate(135deg);
+}
 /* Others*/
 .note-check a[data-value=Rubik] {
   font-style: normal;
 }
 .mbr-arrow a {
   color: #ffffff;
+}
+@media (max-width: 767px) {
+  .mbr-arrow {
+    display: none;
+  }
 }
 .form-control-label {
   position: relative;
@@ -1254,32 +1280,22 @@ body {
   height: auto;
   min-height: 100vh;
 }
-.cid-qE6adp2vky {
-  padding-top: 75px;
-  padding-bottom: 90px;
+.cid-qE6ItuMz9e {
   background: linear-gradient(45deg, #ffffff, #ffffff);
 }
 @media (min-width: 992px) {
-  .cid-qE6adp2vky .mbr-figure {
+  .cid-qE6ItuMz9e .mbr-figure {
     padding-left: 4rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-qE6adp2vky .mbr-figure {
+  .cid-qE6ItuMz9e .mbr-figure {
     padding-top: 3rem;
   }
 }
-.cid-qE6adp2vky .mbr-text,
-.cid-qE6adp2vky .mbr-section-btn {
+.cid-qE6ItuMz9e .mbr-text,
+.cid-qE6ItuMz9e .mbr-section-btn {
   color: #232323;
-  text-align: left;
-}
-.cid-qE6adp2vky .mbr-text,
-.cid-qE6adp2vky .mbr-section-btn I {
-  color: #ff0000;
-}
-.cid-qE6adp2vky P {
-  color: #ff0000;
   text-align: left;
 }
 .cid-qwTUJHSK0F .navbar {
